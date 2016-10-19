@@ -1,0 +1,8 @@
+@font-face {
+    font-family:"Raleway Medium";
+    src:url("../fonts/Raleway_Medium/Raleway-Medium.eot?") format("eot"),
+    url("../fonts/Raleway_Medium/Raleway-Medium.woff") format("woff"),
+    url("../fonts/Raleway_Medium/Raleway-Medium.ttf") format("truetype"),
+    url("../fonts/Raleway_Medium/Raleway-Medium.svg#Raleway-Medium") format("svg");
+    font-weight:normal;
+    font-style:normal;}

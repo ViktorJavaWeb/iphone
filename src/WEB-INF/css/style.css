@@ -1,0 +1,129 @@
+/*========= ВНЕШНИЕ ФАЙЛЫ =============*/
+@import "fonts.css";
+
+/*========= КОНЕЦ ВНЕШНИХ ФАЙЛОВ =============*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.outline1{
+    outline: 1px solid black;
+}
+
+.outline2{
+    outline: 1px solid red;
+
+}
+.container{
+   max-width: 1170px;
+    margin: 0 auto;
+
+}
+/*========= КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ======================*/
+
+
+
+/*========= GEOAPP============================*/
+
+.geoApp{
+    background-image: url("../images/work-and-travel-hotel-room-office-picjumbo-com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo{
+    display: inline-block;
+
+}
+.logo p{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+}
+
+.logo p span{
+    color: #a25f89;
+}
+.hederMenuRight{
+    display: inline-block;
+}
+
+.hederMenuRightOl{
+    list-style: none;
+
+}
+
+.menuLi{
+    display: inline-block;
+}
+
+.menuLi a{
+
+}
+
+/*========= GEOAPP КОНЕЦ ======================*/
+
+
+/*========= AWESOME FEATURES============================*/
+
+.awesomeFeatures{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 0;
+}
+
+.awesomeFeatures .container h2{
+    font-size: 60px;
+}
+.awesomeBlook{
+
+
+}
+
+.awesomeBlookSmall{
+    outline: 1px solid aquamarine;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-left: 100px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.awesomeBlookSmall h3{
+    font-size: 25px;
+}
+.awesomeBlookSmall p{
+    font-size: 16px;
+}
+
+.iconAwesome{
+    background-color: #9f9f9f;
+    position: absolute;
+    margin-left: 5px;
+}
+/*========= AWESOME FEATURES КОНЕЦ =====================*/
+
+
+
+/*========= FOOTER ============================*/
+
+.footer{
+    height: 101px;
+    background-color: #2c1d2e;
+}
+
+/*========= FOOTER КОНЕЦ ======================*/
+
+
+/*========= GEOAPP============================*/
+/*========= GEOAPP КОНЕЦ ======================*/
+
+
+/*========= GEOAPP============================*/
+/*========= GEOAPP КОНЕЦ ======================*/
