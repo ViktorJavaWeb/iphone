@@ -17,54 +17,99 @@
 
 .outline2{
     outline: 1px solid red;
-
 }
 .container{
    max-width: 1170px;
     margin: 0 auto;
-
 }
 /*========= КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ======================*/
 
 
-
 /*========= GEOAPP============================*/
-
 .geoApp{
     background-image: url("../images/work-and-travel-hotel-room-office-picjumbo-com.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
+    
+}
+.geoAppShadow{
+    background-color: rgba(0,0,0,0.3);
+   
+}
 
+.hederMenu{
+    text-align: center;
+    margin: 100px auto;
 }
 .logo{
-    display: inline-block;
-
+    float: left;
 }
-.logo p{
-    display: inline-block;
+.logo p{    
     font-size: 25px;
-    color: white;
+    color: #9f9f9f;
 }
 
-.logo p span{
-    color: #a25f89;
-}
+
 .hederMenuRight{
-    display: inline-block;
-}
-
-.hederMenuRightOl{
-    list-style: none;
-
+    float: right;
 }
 
 .menuLi{
     display: inline-block;
+    list-style: none;
+    
 }
 
 .menuLi a{
-
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    padding: 5px 15px;
+    
 }
+
+.menuLi:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+.geoAppShadow .container{
+    position: relative;
+    color: white;
+}
+
+.geoAppShadow .container h1{
+    font-size: 60px;
+     
+}
+
+.buttoN{
+    border-radius: 8px;
+    font-size: 25px;
+    color: white;
+    background-color: indianred;
+}
+.buttoN:hover{
+    cursor: pointer;
+}
+    
+.geoAppPhon1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;    
+}
+.geoAppPhon1 img, .geoAppPhon2 img{
+    width: 60%;
+}
+.geoAppPhon2{
+    position: absolute;
+    right: 150px;
+}
+
 
 /*========= GEOAPP КОНЕЦ ======================*/
 
@@ -72,27 +117,26 @@
 /*========= AWESOME FEATURES============================*/
 
 .awesomeFeatures{
-    padding-top: 150px;
+    padding: 120px 0;
     text-align: center;
     font-size: 0;
 }
 
-.awesomeFeatures .container h2{
+.awesomeText{
     font-size: 60px;
+    
 }
 .awesomeBlook{
-
-
 }
 
 .awesomeBlookSmall{
     outline: 1px solid aquamarine;
     display: inline-block;
     width: 50%;
-    vertical-align: top;
     padding-left: 100px;
     box-sizing: border-box;
     position: relative;
+    text-align: left;
 }
 
 .awesomeBlookSmall h3{
@@ -106,8 +150,324 @@
     background-color: #9f9f9f;
     position: absolute;
     margin-left: 5px;
+    top: 0;
+    left: 0;
+    border-radius: 7px;
+    background-color: brown;
+    padding: 5px;
 }
 /*========= AWESOME FEATURES КОНЕЦ =====================*/
+
+/*========= HOW IT WORKS============================*/
+.hotItWorks{
+    background-image: url("../images/pexels-photo-30732.png");
+    padding: 120px 0;
+    color: white;    
+    text-align: center;
+}
+.hotItWorks .container h2{
+    font-size: 60px;
+}
+.hotItWorks .container p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.hotItWorksBlook{
+    outline: 1px solid #2c1d2e;
+    display: inline-block;
+    padding-left: 80px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+}
+.hotItWorksIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*========= HOW IT WORKS КОНЕЦ ======================*/
+
+/*========= FULL SUPPORT ============================*/
+.fullSupport{
+    background-color: #eeeeee;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.fullSupport .container{
+    position: relative;
+}
+.fullSupportBlooksLeft{
+    
+}
+.fullSupportBlooksRight{
+    
+}
+.KKK{
+    outline: 1px solid aquamarine;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    
+}
+.fullSupportMobl{
+    display: inline-block;
+}
+.fullSupportMobl img{
+    width: 60%; 
+}
+
+
+/*========= FULL SUPPORT КОНЕЦ ======================*/
+
+/*========= WORKING HOURS ============================*/
+.workingHours{
+    background-image: url("../images/pexels-photo-30732_.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 0;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.workingHoursMovingBlocks{
+    outline: 2px solid azure;
+    display: inline-block;
+    width: 25%;
+    font-size: 25px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.workingHoursMovingBlocks img{
+    background-color: white;
+}
+.workingHoursNumber{
+    font-size: 35px;
+}
+
+.workingHoursText{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/*========= WORKING HOURS КОНЕЦ ======================*/
+
+
+/*========= HOW IT WORKS ============================*/
+.frequently{
+    background-color: #eeeeee;
+    text-align: center;
+    font-size: 0;
+    padding: 70px
+}
+
+.frequently h2{
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+.frequently p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.frequentlyBlooks{
+    
+    vertical-align: top;
+    outline: 1px solid black;
+    display: inline-block;
+    font-size: 25px;
+    width: 50%;
+    overflow: hidden;
+    text-align: left;
+}
+.frequentlyBlooks h3{
+    text-transform: capitalize;
+}
+/*========= HOW IT WORKS КОНЕЦ ======================*/
+
+/*========= SUBSCRIBE TO OUR NEWSLETTER ============================*/
+.subscribe{
+    background-image: url("../images/Rectangle 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+}
+.subscribe h2{
+    font-size: 65px;
+}
+
+.subscribe input{
+    width: 300px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.subscribe button{
+    background-color: #ba61a4;
+    padding: 5px 15px;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 7px;
+    
+}
+/*========= SUBSCRIBE TO OUR NEWSLETTER КОНЕЦ ======================*/
+
+
+/*========= MEET OUR TEAM ============================*/
+.meetOurTeam{
+    text-align: center;
+    padding: 70px 0;        
+}
+
+.meetOurTeam h2{
+    font-size: 45px;
+}
+.meetOurTeam p{
+    font-size: 15px;
+}
+
+.one, .two, .thre{
+    outline: 1px solid #ba61a4;
+}
+.meetOurTeamBook{
+    font-size: 0;
+}
+.meetOurTeamBookOne{
+    display: inline-block;    
+}
+.meetOurTeamBookOne:nth-child(even){
+    margin: 0 50px;
+}
+
+.emptyBook{
+   width: 270px;
+   height: 345px;
+}
+.meetOurTeamBookImg1_1{
+    background-image: url("../images/Rectangle 8 copy 4.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 375px;
+}
+.meetOurTeamBookImg1_2{
+    background-image: url("../images/Rectangle 8 copy 4.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 375px;
+}
+.meetOurTeamBookImg1_3{
+    background-image: url("../images/Rectangle 8 copy 4.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 375px;
+}
+.meetOurTeamBookImgShadow{
+    
+}
+
+/*========= MEET OUR TEAM КОНЕЦ ======================*/
+
+/*========= PRICING OPTIONS ============================*/
+.pricingOptions{
+    background-image: url("../images/3TJ6NCTIRT.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.pricingOptions h2{
+    font-size: 45px;    
+}
+.pricingOptions p{
+    font-size: 15px;
+}
+/*========= PRICING OPTIONS КОНЕЦ ======================*/
+
+
+/*========= SECTION OFFER ============================*/
+
+.offer{
+    padding-bottom: 115px;
+
+}
+
+.offer .container{
+    font-size: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.offerSection{
+
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fdfdfc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ba61a4;
+    box-sizing: border-box;
+}
+
+.offerSection{
+    font-size: 25px;
+}
+
+.offerSection:nth-child(even){
+    margin: 0px 30px;
+}
+
+.offerItem{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.dollar{
+    font-size: 70px;
+}
+.dollar span{
+    font-size: 20px;
+}
+.offerList{
+    outline: 1px solid black;
+    list-style-type: none;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.offerList li{
+
+}
+
+.offerList li span{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #ba61a4;
+    border-radius: 5px;
+
+}
+
+.btm{
+    width: 180px;
+    height: 50px;
+    background-color: #a25f89;
+    border-radius: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 50px;
+    color: white;
+
+}
+
+/*========= SECTION OFFER КОНЕЦ ======================*/
+
 
 
 
@@ -121,8 +481,6 @@
 /*========= FOOTER КОНЕЦ ======================*/
 
 
-/*========= GEOAPP============================*/
-/*========= GEOAPP КОНЕЦ ======================*/
 
 
 /*========= GEOAPP============================*/
