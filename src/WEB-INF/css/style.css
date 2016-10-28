@@ -307,7 +307,7 @@
     border: 0;
 }
 
-.subscribe button{
+.subscribe .button{
     background-color: #ba61a4;
     padding: 5px 15px;
     color: white;
@@ -338,38 +338,56 @@
 .meetOurTeamBook{
     font-size: 0;
 }
-.meetOurTeamBookOne{
-    display: inline-block;    
-}
-.meetOurTeamBookOne:nth-child(even){
-    margin: 0 50px;
+
+.imgShadow{
+   display: inline-block;    
+   box-shadow: 5px 5px 5px #2c1d2e, -30px 30px 0px #ba61a4;
+   width: 270px;
+   height: 345px;   
+   cursor: pointer;
 }
 
-.emptyBook{
-   width: 270px;
-   height: 345px;
+.imgShadow:nth-child(even){
+    margin: 0 50px;   
 }
 .meetOurTeamBookImg1_1{
     background-image: url("../images/Rectangle 8 copy 4.png");
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 375px;
+    background-repeat: no-repeat; 
+}
+.meetOurTeamBookImgShadow{
+    opacity: 0;
+    box-sizing: border-box;
+    margin: auto;
+    width: 270px;
+    height: 345px;      
+}
+
+.meetOurTeamBookText{
+    text-transform: capitalize;
+    color: white;
+    font-size: 55px;
+    color: white;
+}
+.meetOurTeamBookImgShadow span{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.meetOurTeamBookImgShadow:hover{
+    opacity: 1;
+    background-color: rgba( 186, 97, 164, 0.4);
+    width: 250px;
+    height: 335px; 
 }
 .meetOurTeamBookImg1_2{
     background-image: url("../images/Rectangle 8 copy 4.png");
     background-repeat: no-repeat;
-    width: 300px;
-    height: 375px;
+    
 }
 .meetOurTeamBookImg1_3{
     background-image: url("../images/Rectangle 8 copy 4.png");
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 375px;
+    background-repeat: no-repeat;   
 }
-.meetOurTeamBookImgShadow{
-    
-}
+
 
 /*========= MEET OUR TEAM КОНЕЦ ======================*/
 
@@ -395,17 +413,16 @@
 
 .offer{
     padding-bottom: 115px;
-
 }
 
 .offer .container{
     font-size: 0px;
     text-align: center;
     position: relative;
+    top: -65px;
 }
 
 .offerSection{
-
     display: inline-block;
     vertical-align: top;
     background-color: #fdfdfc;
@@ -416,6 +433,8 @@
 
 .offerSection{
     font-size: 25px;
+    width: 350px;
+    padding: 50px;
 }
 
 .offerSection:nth-child(even){
@@ -424,7 +443,7 @@
 
 .offerItem{
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .dollar{
@@ -436,23 +455,19 @@
 .offerList{
     outline: 1px solid black;
     list-style-type: none;
-    margin-left: 70px;
     text-align: left;
 }
 
 .offerList li{
-
 }
 
 .offerList li span{
     display: inline-block;
-    width: 22px;
-    height: 22px;
-    background-color: #ba61a4;
-    border-radius: 5px;
-
+    margin-right: 20px;
 }
-
+.fa-check-square{
+    color: #a25f89;
+}
 .btm{
     width: 180px;
     height: 50px;
@@ -463,25 +478,228 @@
     display: inline-block;
     line-height: 50px;
     color: white;
+    cursor: pointer;
+    margin-top: 50px;
 
+}
+
+.offerSection:hover{
+    background-color: #ba61a4;
+    color: white;
 }
 
 /*========= SECTION OFFER КОНЕЦ ======================*/
 
+/*========= FOTO TEXT ============================*/
+.fotoText{
+    background-color: #eeeeee;
+    font-size: 0;
+}
+.fotoText .container{
+    margin: auto;
+       
+}
+.fotoTextImg{
+    position: relative;
+    top: -65px;
+    left: 0;
+    display: inline-block;
+    margin-left: 100px;
+}
+.fotoTextText{
+    
+    float: right;
+    margin: auto;
+    text-align: right;
+}
+.fotoText p{
+    font-size: 15px;
+    padding: 5px;
+}
+.fotoText span{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.select{
+    font-size: 0;
+    text-align: center; 
+
+}
+.fotoTextLeft{
+    display: inline-block;
+    margin: 0 10px;
+}
+.fotoTextLeft:hover{
+    cursor: pointer;
+}
+.fotoTextRight{
+    display: inline-block;
+}
+.fotoTextRight:hover{
+    cursor: pointer;
+}
+
+/*========= FOTO TEXT КОНЕЦ ======================*/
+
+
+
+/*========= GET THE APP TODAY ============================*/
+
+.getTheApp{
+    background-image: url("../images/people-eiffel-tower-lights-night.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    color: white;        
+}
+
+.getTheApp .container{
+    padding: 100px 0;
+}
+.getTheApp .container h2{
+    font-size: 45px;
+}
+.getTheApp .container p{
+    font-size: 15px;    
+}
+
+.app{       
+    font-size: 0;
+    vertical-align: top;    
+}
+.appStore{
+    display: inline-block;
+    background-image: url("../images/AppStore.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 213px;
+    height: 75px;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    vertical-align: top;   
+}
+.googlPlay{
+    vertical-align: top;
+    display: inline-block;
+    background-image: url("../images/GooglePlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 232px;
+    height: 75px;
+    cursor: pointer;    
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+/*========= GET THE APP TODAY КОНЕЦ ======================*/
+
+
+    
+/*========= SOME OF OUR APP ============================*/
+.someOfOur{
+    
+}
+
+.someOfOur .container{
+    font-size: 0;
+}
+
+.someOfOur .container h2{
+    font-size: 35px;
+}
+.someOfOur .container p{
+    font-size: 15px;
+}
+
+.someOfOurWhirligig_List{    
+    outline: 1px solid black;
+    list-style-type: none;    
+}
+
+.someOfOurWhirligig_Li{
+    outline: 1px solid red;
+    display: inline-block;    
+    vertical-align: top;
+    
+    width: 20%;
+}
+
+.someOfOurWhirligig_Li img{
+    width: 100%;
+}
+
+
+/*========= SOME OF OUR APP КОНЕЦ ======================*/
+
+
+/*========= CONTACT US ============================*/
+.contactUs p{
+    padding: 85px 0 125px 0;
+    font-size: 60px;
+    text-align: center;
+}
+/*========= CONTACT US КОНЕЦ ======================*/
+
+
+
+/*========= MAPS ============================*/
+.maps{
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.mapFarma{
+    outline: 1px solid red;
+    width: 670px;
+}
+
+.mapFarma input, textarea{
+    width: 600px;
+}
+
+.mapFarma label{
+    margin-bottom: 20px;
+}
+
+.maps iframe{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    box-shadow: 5px 5px 0px #ba61a4;
+    padding-bottom: 10px;
+}
+/*========= MAPS КОНЕЦ ======================*/
 
 
 
 /*========= FOOTER ============================*/
 
 .footer{
-    height: 101px;
+    height: 100px;
     background-color: #2c1d2e;
+    color: white;
 }
+
+.logo{
+
+}
+.footerSelec{
+    display: inline-block;
+}
+
+.footer p{
+    display: inline-block;
+}
+
 
 /*========= FOOTER КОНЕЦ ======================*/
 
 
 
 
-/*========= GEOAPP============================*/
+/*========= GEOAPP ============================*/
 /*========= GEOAPP КОНЕЦ ======================*/
